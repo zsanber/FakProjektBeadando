@@ -1,0 +1,48 @@
+/*navbar*/
+
+.navbar{
+  background-color: rgb(52, 58, 64);
+  color: rgb(205, 173, 173);
+  font-family: 'Roboto Serif', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 3px 5px 10px rgba(48, 40, 40, 0.5);
+}
+
+.nav-link{
+  color: rgb(143, 140, 140);
+}
+
+.nav-link:hover{
+  color:rgb(130, 198, 103);
+}
+
+.active{
+  color:rgb(130, 198, 103);
+}
+
+/*home*/
+.home { 
+  background-image: url('../public/image/tolgy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle{
+  background-color: rgba(106, 127, 130, 0.7);
+  color:white;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius:5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30%;
+}
+
+.pad {
+  height: 100px;
+}
+
+.p::first-letter{
+  font-weight: bold;
+  font-size:36px;
+  margin-left:10px;
+
+}
